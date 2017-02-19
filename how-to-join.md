@@ -1,6 +1,6 @@
-Interested in exploring the what and why of containers and their
-implications on software architecture?  Here is how you can become a
-participant in the workshop:
+Interested in exploring functional programming ideas and software
+architecture?  Here is how you can become a participant in the
+workshop:
 
 1. Prepare a brief "position paper" containing your ideas, questions, and experiences and submit it to the workshop by forking this workshop repository in GitHub and issuing a [pull request](https://help.github.com/articles/using-pull-requests/) with your position paper included.
 2. You will be contacted via the pull request by the workshop organizers regarding acceptance into the workshop.  To reserve your spot you should submit a reasonable first draft as soon as possible, no later than April 16.

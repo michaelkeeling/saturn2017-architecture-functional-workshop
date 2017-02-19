@@ -65,7 +65,6 @@ TODO
 Thanks to everyone who participated in this year's workshop!  
 
 TODO group picture
-![](outcomes/images/group-1.jpg)
 
 
 ## About SATURN
@@ -79,14 +78,10 @@ network, and learn about new and existing technologies. For more
 information, go to
 [http://www.sei.cmu.edu/saturn/2017](http://www.sei.cmu.edu/saturn/2017).
 
-- [SATURN 2017 Program](http://www.sei.cmu.edu/saturn/2017/program.cfm)
+- [SATURN 2017 Program](http://www.sei.cmu.edu/saturn/2017/program.cfm) TODO: broken link
 - [SATURN 2017 Registration](http://www.sei.cmu.edu/saturn/2017/registration.cfm)
-- [SATURN Archives](http://www.sei.cmu.edu/saturn/2017/presentations.cfm)
+- [SATURN Archives](http://www.sei.cmu.edu/saturn/2017/presentations.cfm) TODO: broken link
 - [SATURN 2015 Workshop on Microservices](https://github.com/michaelkeeling/SATURN2015-Microservices-Workshop)
 - [SATURN 2016 Workshop on Containers](https://github.com/michaelkeeling/saturn2016-containers-workshop)
-
-
-
-![](https://duckduckgrayduck.files.wordpress.com/2011/10/cargo.jpg?w=500)
 
 

@@ -1,4 +1,4 @@
-# Tentative Workshop Agenda
+# Workshop Agenda
 
 Note that all times are approximate after the workshop starts.
 
