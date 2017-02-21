@@ -1,22 +1,19 @@
-# SATURN 2017 Workshop on Architecture and the Functional Frontier (Reactive / Immutable / Functional programming)
+# SATURN 2017: Architecture and the Functional Frontier Workshop
 
-Functional programming has found it’s way into enterprise software
-systems.  Pure functional languages such as Common Lisp, Haskell, and
-ML, which always had a devoted following in academics, are seeing
-increased mainstream use in industry.
-
-Traditional OO languages such as C# and Java have evolved, seeing
-changes to the core language and libraries, to allow for programming
-in a functional style.  When developers look for their next language,
-they are increasingly looking for a functional language.  Rather than
-working around Java’s assumption that objects are mutable, they are
-choosing languages with immutable data structures built-in.  Rather
-than imposing self-discipline to avoid side effects, they are choosing
-languages that enforce pure functions.
+Functional programming has found it’s way into enterprise software systems.
+Pure functional languages such as Common Lisp, Haskell, and ML, which always
+had a devoted following in academics, are seeing increased mainstream use in
+industry.  Traditional OO languages such as C# and Java have evolved, seeing
+changes to the core language and libraries, to allow for programming in a
+functional style.  When developers look for their next language, they are
+increasingly looking for a functional language.  Rather than working around
+Java’s assumption that objects are mutable, they are choosing languages with
+immutable data structures built-in.  Rather than imposing self-discipline to
+avoid side effects, they are choosing languages that enforce pure functions.
 
 Traditionally, software architects have paid little attention to
 functional programming.  The choice of programming language and style
-(eg OO, functional, procedural) has long thought to be a choice made
+(e.g. OO, functional, procedural) has long thought to be a choice made
 within a module, while software architecture is how those modules are
 put together.
 
@@ -36,52 +33,56 @@ include: statelessness, immutability, and pure functions. These ideas
 underlie DevOps practices and are at the core of many distributed
 systems patterns.
 
-In this workshop, we will investigate the connections between
-functional programming and software architecture.  Here are some
-questions to stimulate discussion:
+The goal of this workshop is to explore functional patterns in software
+architecture.  Our hope is that we'll end the day with a dozen or so
+documented patterns in addition to the some bigger _ah-ha!_ moments, and a
+collecton of new questions about the intersection of arhictecutre and
+functional thinking.  [Here are some questions and topics we will consider
+during the workshop include the items listed on this page](questions.md).
 
-The workshop will take place on Monday, May 1, 2017 in Denver, CO as
-part of the [SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2017/).
+The workshop will take place on Monday, May 1, 2017 in [Denver, CO during the
+SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2017/).
+Workshop participants are required to be registered for SATURN 2017.
 
-## Workshop Outcomes
+**Important Dates**
 
-The workshop was conducted as a series of discussions following [this general ageneda](agenda.md).
+- Workshop RSVP - April 3, 2017
+- Position papers and seed patterns deadline - April 17, 2017
+- Workshop - May 1, 2017 @ 8:30 AM
 
-TODO
+**More Information**
 
+- [How to Join the Workshop](how-to-join.md)
+- [Motivating Questions for Position Papers and Seed Patterns](questions.md)
+- [Reference Material to help Prepare for the Workshop](references.md)
+- [Tentative Workshop Agenda](agenda.md)
 
-## Workshop Participants
+## Position Papers and Seed Patterns
 
-Participants were asked to submit a [position paper](how-to-join.md#position-papers)
-before the conference to help prepare for discussions.  Those papers are listed below.
-
-TODO
-
-**Workshop Organizers**
-
-* [George Fairbanks](https://github.com/georgefairbanks) | [@GHFairbanks](https://twitter.com/GHFairbanks) | [http://georgefairbanks.com](http://georgefairbanks.com)
-* [Michael Keeling](https://github.com/michaelkeeling) |  [@michaelkeeling](https://twitter.com/michaelkeeling) | [http://neverletdown.net](http://neverletdown.net)
-
-Thanks to everyone who participated in this year's workshop!  
-
-TODO group picture
+See [How to Join](how-to-join.md)
 
 
-## About SATURN
+# About SATURN
 
-The 13th SEI Architecture Technology User Network (SATURN) Conference
-brings together influential leaders and experts in software design to
-discuss architecture-centric practices for developing, acquiring, and
-maintaining software-reliant systems. Developers and architects from
-more than 20 countries meet annually at SATURN to share ideas,
-network, and learn about new and existing technologies. For more
-information, go to
-[http://www.sei.cmu.edu/saturn/2017](http://www.sei.cmu.edu/saturn/2017).
+The 13th SEI Architecture Technology User Network (SATURN) Conference — the
+longest-running software architecture conference in the world — brings
+together influential leaders and experts to discuss architecture-centric
+practices for developing, acquiring, and maintaining software-reliant systems.
+Architects from more than 20 countries meet annually at SATURN to share ideas,
+network, and learn about new and existing technologies. For more information,
+go to [http://www.sei.cmu.edu/saturn/2017](http://www.sei.cmu.edu/saturn/2017).
 
-- [SATURN 2017 Program](http://www.sei.cmu.edu/saturn/2017/program.cfm) TODO: broken link
+- [SATURN 2017 Program](https://saturn2017.sched.com/)
 - [SATURN 2017 Registration](http://www.sei.cmu.edu/saturn/2017/registration.cfm)
-- [SATURN Archives](http://www.sei.cmu.edu/saturn/2017/presentations.cfm) TODO: broken link
-- [SATURN 2015 Workshop on Microservices](https://github.com/michaelkeeling/SATURN2015-Microservices-Workshop)
-- [SATURN 2016 Workshop on Containers](https://github.com/michaelkeeling/saturn2016-containers-workshop)
+- [SATURN 2016 Workshop: Containers](https://github.com/michaelkeeling/saturn2016-containers-workshop)
+- [SATURN 2015 Workshop: Microservices](https://github.com/michaelkeeling/SATURN2015-Microservices-Workshop)
 
 
+## Workshop Organizers
+
+* [George Fairbanks](https://github.com/georgefairbanks) |
+  [@GHFairbanks](https://twitter.com/GHFairbanks) |
+  (http://georgefairbanks.com)[http://georgefairbanks.com/]
+* [Michael Keeling](https://github.com/michaelkeeling) |
+  [@michaelkeeling](https://twitter.com/michaelkeeling) |
+  [http://neverletdown.net](http://neverletdown.net)
