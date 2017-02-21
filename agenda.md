@@ -15,7 +15,7 @@ Note that all times are approximate after the workshop starts.
 
 9:45 - Prioritize topics
 
-- dot voting to identify top 3-5 topics for discussion
+- vote to identify top 3-5 topics for discussion
 - About 5-10 minutes
 
 10:00 - break [line up with general breaks for course]
@@ -31,12 +31,10 @@ Note that all times are approximate after the workshop starts.
 
 4:00 - Wrap up and reflection
 
-- Goal 1: A catalog of patterns or tactics
-- Goal 2: Summarize what we learned (for the website and for the conference)
 - What are the key take aways?
 - What goes on the poster and website?
 - What did you get out of this workshop?  What is the single most important thing you learned?
 
 4:30 - Workshop ends
 
-4:30 - 5:30 Prepare posters for Welcome Reception
+4:30 - 5:30 Record outcomes and prepare posters for Welcome Reception
