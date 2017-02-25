@@ -1,10 +1,10 @@
 # SATURN 2017: Architecture and the Functional Frontier Workshop
 
-Functional programming has found it’s way into enterprise software systems.
+Functional programming has found its way into enterprise software systems.
 Pure functional languages such as Common Lisp, Haskell, and ML, which always
 had a devoted following in academics, are seeing increased mainstream use in
 industry.  Traditional OO languages such as C# and Java have evolved, seeing
-changes to the core language and libraries, to allow for programming in a
+changes to their core syntax and libraries, to allow for programming in a
 functional style.  When developers look for their next language, they are
 increasingly looking for a functional language.  Rather than working around
 Java’s assumption that objects are mutable, they are choosing languages with
@@ -13,7 +13,7 @@ avoid side effects, they are choosing languages that enforce pure functions.
 
 Traditionally, software architects have paid little attention to
 functional programming.  The choice of programming language and style
-(e.g. OO, functional, procedural) has long thought to be a choice made
+(e.g. OO, functional, procedural) has long been thought of as a choice made
 within a module, while software architecture is how those modules are
 put together.
 
@@ -26,19 +26,19 @@ the planet.  As a consequence, we’ve changed our architecture pattern
 languages and our development, deployment, and operating procedures
 (DevOps).
 
-It’s still difficult to build a good distributed system so developers
+It’s still difficult to build a good distributed system, so developers
 have used ideas in functional programming to make it easier.
 Functional programming (FP) ideas that we see in architectural design
-include: statelessness, immutability, and pure functions. These ideas
-underlie DevOps practices and are at the core of many distributed
+include: statelessness, immutability, idempotence, and pure functions. 
+These ideas underlie DevOps practices and are at the core of many distributed
 systems patterns.
 
 The goal of this workshop is to explore functional patterns in software
 architecture.  Our hope is that we'll end the day with a dozen or so
 documented patterns in addition to the some bigger _ah-ha!_ moments, and a
 collecton of new questions about the intersection of arhictecutre and
-functional thinking.  [Here are some questions and topics we will consider
-during the workshop include the items listed on this page](questions.md).
+functional thinking.  [Here are some questions and topics that can consider
+during the workshop, including the items listed on this page](questions.md).
 
 The workshop will take place on Monday, May 1, 2017 in [Denver, CO during the
 SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2017/).
