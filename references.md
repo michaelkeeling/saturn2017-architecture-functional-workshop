@@ -20,4 +20,4 @@ other material that would be good to read/skim prior to the workshop.
 
 # Server-side 
 * [HighScalability.com](http://highscalability.com)
-
+* [EventStore database](https://github.com/EventStore/EventStore)
