@@ -8,6 +8,8 @@ other material that would be good to read/skim prior to the workshop.
 
 * [Functional game: cube composer](http://david-peter.de/cube-composer/)
 * [What Elm and Rust Teach Us About the Future](https://dev.to/martincerny/what-elm-and-rust-teach-us-about-the-future)
+* Martin Fowler, [Event Sourcing Pattern](https://martinfowler.com/eaaDev/EventSourcing.html)
+* Martin Fowler, [CQRS Pattern](https://www.martinfowler.com/bliki/CQRS.html)
 
 ## Reactive programming
 
@@ -15,9 +17,9 @@ other material that would be good to read/skim prior to the workshop.
 * [Marble diagrams](http://rxmarbles.com/)
 * [Reactive vs Functional Reactive](http://stackoverflow.com/questions/5385377/the-difference-between-reactive-and-functional-reactive-programming).  (R is discrete; FR is continuous)
 
-# Web browser
+## Web browser
 * [FP in the browser](http://mutanatum.com/posts/2017-01-12-Browser-FP-Head-to-Head.html)
 
-# Server-side 
+## Server-side 
 * [HighScalability.com](http://highscalability.com)
 * [EventStore database](https://github.com/EventStore/EventStore)
