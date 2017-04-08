@@ -13,7 +13,7 @@ questions to stimulate discussion:
   about functional
 * What’s a better name than “functional architecture”?  Of course it
   functions...
-* Why are functional designs so desireable?  Why the rise in popularity now?
+* Why are functional designs so desirable?  Why the rise in popularity now?
 * Can this paradigm be extended further than it has so far?  What might that
   look like?
 * Is this a fad, a trend, or the end-state for distributed systems?  How is it
