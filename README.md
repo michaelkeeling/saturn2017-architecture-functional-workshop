@@ -29,7 +29,7 @@ languages and our development, deployment, and operating procedures
 It’s still difficult to build a good distributed system, so developers
 have used ideas in functional programming to make it easier.
 Functional programming (FP) ideas that we see in architectural design
-include: statelessness, immutability, idempotence, and pure functions. 
+include: statelessness, immutability, idempotence, and pure functions.
 These ideas underlie DevOps practices and are at the core of many distributed
 systems patterns.
 
@@ -58,6 +58,7 @@ Workshop participants are required to be registered for SATURN 2017.
 - [Tentative Workshop Agenda](agenda.md)
 
 ## Position Papers and Seed Patterns
+- Einar, Jørn and Harald (the Statoil gang) - [Tale of three gaps](position-papers/tale-of-three-gaps.md)
 
 See [How to Join](how-to-join.md)
 
