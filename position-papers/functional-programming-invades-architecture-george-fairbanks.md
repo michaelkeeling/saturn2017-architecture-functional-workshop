@@ -125,10 +125,17 @@ Today you can rent over a hundred machines on a cloud provider for less than the
 
 [1] DeRemer and Kron, Programming-in-the large versus programming-in-the-small, ACM SIGPLAN Notices,
 Volume 10 Issue 6, June 1975.
+
 [2] Andre Staltz, The introduction to Reactive Programming you've been missing, https://gist.github.com/staltz/868e7e9bc2a7b8c1f754, Aug 2015.
+
 [3] Andre Staltz, Unidirectional User Interface Architectures, https://staltz.com/unidirectional-user-interface-architectures.html, Aug 2015.
+
 [4] ThoughtWorks Radar, https://www.thoughtworks.com/radar/languages-and-frameworks, April 2017.
+
 [5] Mike Roberts, Serverless Architectures, https://martinfowler.com/articles/serverless.html, August 2016.
+
 [6] Wikipedia, Reactive Programming, https://en.wikipedia.org/wiki/Reactive_programming.
+
 [7] RxMarbles, http://rxmarbles.com. 
+
 [8] Martin Fowler, CQRS pattern, https://martinfowler.com/bliki/CQRS.html, July 2011.
