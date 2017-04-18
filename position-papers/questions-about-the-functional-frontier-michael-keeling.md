@@ -20,6 +20,8 @@ questions that I think might be interesting to discuss during the workshop.
 * What properties of a design are required to call something _functional_?  How many
   of these properties are required (or what combinations) to achieve the quality
   attributes promised by functional architecture?
+* What does functional thinking buy us?  Perhaps there are other desireable properties
+  beyond quality attributes that we get by taking a functional approach.
 * What existing patterns and tactics might fall under this umbrella (see brainstorm below).
 * When is state considered _functional_ and when is it not?
 * Can we come up with a better name than _functional architecture_?
