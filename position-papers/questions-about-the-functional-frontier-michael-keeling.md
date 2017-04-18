@@ -75,6 +75,12 @@ several component and connector, allocation patterns that seemed functional
 in nature.  Design time concerns --- specifically how code is organized ---
 does not seem to fit the bill.
 
+After further refelction, there may be interesting opportunities for describing
+module relations using mondads.  The one example that comes to mind is a
+_maybe allowed to use_ relation.  How is this relation used?  One practical
+(albeit simple) example might be to describe dependancy injection at design time.
+Perhaps an even more general example is to take a functional view on refinement.
+
 An interesting implication of this conclusion is to see how far we can talk
 functional allocation patterns.  Is _work assignment_ a transformation of idea
 and labor to value with code as the output of the function?  This may be getting
@@ -83,6 +89,6 @@ think we may find many opportunities to apply lessons from functional programmin
 to all aspects of design, not only C&C patterns.
 
 
-## Architects Prepare for a Workshop at SATURN
+## Architects on their way to a Workshop at SATURN...
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/41/The_Oregon_Trail.jpg)
