@@ -6,14 +6,14 @@ Position paper for SATURN 2017 Architecture and the Functional Frontier Workshop
 
 ## Position for Workshop
 
-I had initially started this position paper with a significantly strong
-statement about what _functional architecture_ means to me.  As a re-read that
-statement I began to realize that I really don't have a clue.  Instead of
+I had initially started this position paper with a quite strong
+statement about what _functional architecture_ means to me.  As I re-read that
+statement I realized that I really don't have a clue.  Instead of
 making a bold assertion that I can't back up, I will instead ask some
-questions that I'd like to discuss during the workshop.
+questions that I think might be interesting to discuss during the workshop.
 
-* Does _functional architecture_ refer to a collection of patterns, tactics, a
-  design philosophy, all of these things?
+* What do we really mean by _functional architecture_?  Is it a collection of patterns,
+  tactics, a design philosophy, all of these things?
 * What quality attributes do we care about when we choose functional architecture
   patterns / tactics / philosophy?
 * What quality attributes are in tension with functional architecture?
@@ -61,6 +61,7 @@ do not seem within scope of functional architecture.
 * Call-Return
 * Peer-to-Peer
 * Client-Server
+* Many more patterns than I want to enumerate here...
 
 It seems that most architectural styles do not seem particularly _functional_.
 Styles might be too general for this purpose.  Styles provide vocabulary and
