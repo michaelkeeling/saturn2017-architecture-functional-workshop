@@ -5,37 +5,41 @@ Saturn 2017 - Functional architecture workshop Position paper
  * [Harald Wesenberg](https://www.statoil.com) | [@hwes](https://twitter.com/hwes)
 
 # Tale of three gaps
+Once upon a time the Great Architect had made his most beautiful functional decomposition of a problem into systems, subsystems and subsystems-sub systems. Never in the history of UML, had such beauty seen the light of day.
 
-Once upon a time the Great architect had made his most beautiful functional decomposition of a problem into systems, subsystems and subsystems-sub systems. Never in the history of UML, had such beauty seen the light of day.
+Satisfied with his master piece the Great Architect went to the Master Programmer for realization. The Master Programmer, proud of his merits stated yes, I can build this. I will transform your blueprint into the most beautiful assembly of services, objects and functions the world has ever seen.
 
-Satisfied as he was with his creation he brought it the to the Master programmer for realization. The Master programmer, proud of his merits stated yes, I can do this. You will never find a more beautiful realization. I will call you and show you in some weeks. I will transform your blueprint into the most beautiful assembly of objects and functions.
+Weeks and even months passed, but the only thing the Great architect heard from the Master Programmer was silence. Finally, he went to the Master Programmer and asked: why does it take so long? You promised it in weeks, now months has passed?
 
-Weeks and even months passed, but nothing was delivered. Finally, the architect went to the Master programmer and asked: why does it take so long? You promised it in weeks, now months has passed? The Master programmer broke down and cried: "Mr. Database forced me to transform my objects and functions into a network of global variables, all normalized to the fifth form. Now my code is broken and I’m not able to find a way out. When I change something here, something over there breaks. I am a failure; my reputation is ruined …"
+The Master Programmer broke down and cried: "Lord Database forced me to interface my objects and functions with a network of global variables, all normalized to the fifth form. My code is broken and I’m stuck in a maze. I am a failure; my reputation is ruined …"
 
-So, what’s the story told here?
+### The anti-functional data model
+We believe, or to be more precise we are convinced that architects are functional thinkers. Functional decomposition of both problem space and solution space is the primary tool of their trade.
 
-We believe, or to be more precise we are convinced that architects think in functional concepts, not just functionality, when they decompose a problem into systems and subsystems and even subsystems-subsystems.
+We also believe that programmers are familiar with functional thinking. They have decomposed problems into functions and objects since they wrote their first serious program. Most of them have no problem mapping functional subsystems into services, packages and interfaces maximizing cohesion and minimizing the coupling in their code base. The best of them master domain driven design, sound design principles and patterns.
 
-Programmers easily map functional modules into source code packages, interfaces and services to be offered by the system, and which functions and classes are going to reside inside each package. The best of them master domain driven design, and sound design principles such as immutable functions, Single Responsibility Principle, and Liskov´s Substitution Principle and all are happy until they meet the relational database.
+Our claim is that the inherent functional thinking found in architecture and programming (even though programmed in an imperative way) breaks in the meeting with the data model and particularly how data has been modeled in enterprise contexts.
 
-Our claim is that the relational database, if used improperly, is nothing more than a network of global variables, and that network is filled up with state changes where effects propagates from one end of the system to the other. Its underpinning philosophy of building a network of variables kills all thinking in functions and objects.
+Seen from a functional perspective, an enterprise data model boils down to a network of interconnected global variables; a network where state changes propagate from entity to entity in an uncontrolled manner.
 
-The effect is that we have a destructive loop with three gaps:
+Its underpinning philosophy is anti-functional. The data and their relationships form a different world view, a world view that make life hard for functional thinking architects.
 
-Architect -> Programmer -> Database -> Architect.
+What we really have here is a functional anti-pattern: The Smart Database (or Central Database). We like the notion of Smart Database because that also describes the tendency to put logic in the form of stored procedures into the database.
 
-The effect is that both architects and programmers capsize in the meeting with the database and its evil power: “One database to find them, one database to bring them all and in the darkness bind them”.
+Logic primarily used to tackle state changes and manage data integrity rules, this is the logic that makes the database a placeholder for shared global state.
 
-So all we really have here is a functional antipattern: The Smart Database (or Central Database). We like Smart Database because that also describes the tendency to put logic in the form of stored procedures in the database. This is the database used as shared global state.
+### Three gaps and the way forward
+We started this as a tale of three gaps, the gaps that occur due to the impedance mismatch un world view held by the different roles or archetypes: The Architect -> the Programmer -> the Data modeler -> Architect. Our belief is that these gaps must be eliminated, and that the best way to do so is by adopting functional thinking from the beginning to the end.
 
-Microservices with private databases help here. So does NOSQL databases as these do not contain that many relationships – read dependencies. We also believe that containers and container orchestration will be central to how we think about architecture going forwards, and that this will help.
+Microservices with private persistent storage helps here. The same does NOSQL databases as these do not capture that many relationships – read data dependencies. We also believe that containers and container orchestration will be central to how we think about architecture going forwards, and that this also will help. Here we can look at multi-agent architectures and principles. These have been around for decades and are used with success in many deployed systems.
 
-Now about the name. We have a feeling that "Functional architecture" is the best we can do for now. We did consider "Function-oriented architecture" for a hot minute, but we decided that it was neither more precise or more descriptive.
+### Naming the baby
+Now about the name. We have a feeling that "Functional architecture" is the best we can do for now. We did consider "Function-oriented architecture" for a hot minute, but we decided that it was neither more precise nor more descriptive.
 
-Also there is a question about the quality attributes, or more precisely what the effects of these functional concepts on the quality attributes. There is no denying that focusing on functional concepts like the immutability, idempotency and composability will lead to a certain set of system qualities, and they will end up pushing the quality attributes in a certain direction. Driving the architecture with these concepts will lead to a highly modular, loosely coupled, distributed and scalable system, so does that mean that functional architecture is only suitable for certain types of systems?
+There is also a question about the quality attributes, or more precisely what the effects of these functional concepts on the quality attributes. There is no denying that focusing on functional concepts like the immutability, idempotency and composability will lead to a certain set of system qualities, and they will end up pushing the quality attributes in a certain direction. Driving the architecture with these concepts will lead to a highly modular, loosely coupled, distributed and scalable system, so does that mean that functional architecture is only suitable for certain types of systems?
 
+### Patterns
 Patterns that embody functional concepts:
-
 * All the strategic patterns from DDD
 * Value Objects (DDD) - Immutable
 * Prototype (GOF) - Supports immutability
@@ -47,6 +51,6 @@ Patterns that embody functional concepts:
 
 POA4 is very much recommended reading for all software architects.
 
-DDD: Domain-Driven Design
-GOF: Design Patterns, Gang of Four
+DDD: Domain-Driven Design<br/>
+GOF: Design Patterns, Gang of Four<br/>
 POA4: Pattern-Oriented Software Architecture Vol 4: A Pattern Language for Distributed Computing
