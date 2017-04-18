@@ -58,9 +58,14 @@ Workshop participants are required to be registered for SATURN 2017.
 - [Tentative Workshop Agenda](agenda.md)
 
 ## Position Papers and Seed Patterns
-- Einar, Jørn and Harald (the Statoil gang) - [Tale of three gaps](position-papers/tale-of-three-gaps.md)
 
-See [How to Join](how-to-join.md)
+Einar, Jørn and Harald (the Statoil gang) - [Tale of three gaps](position-papers/tale-of-three-gaps.md)
+
+Paul Newll - [What's the Big Deal?](position-papers/Functional-Programming-and-Software-Architecture- Whats-the-big-deal.md)
+
+George Fairbanks - [Functional Programming In Software Architecture](position-papers/functional-programming-invades-architecture-george-fairbanks.md)
+
+Michael Keeling - [A Few Questions about the Functional Frontier](position-papers/questions-about-the-functional-frontier-michael-keeling.md)
 
 
 # About SATURN
@@ -83,7 +88,7 @@ go to [http://www.sei.cmu.edu/saturn/2017](http://www.sei.cmu.edu/saturn/2017).
 
 * [George Fairbanks](https://github.com/georgefairbanks) |
   [@GHFairbanks](https://twitter.com/GHFairbanks) |
-  (http://georgefairbanks.com)[http://georgefairbanks.com/]
+  [http://georgefairbanks.com](http://georgefairbanks.com/)
 * [Michael Keeling](https://github.com/michaelkeeling) |
   [@michaelkeeling](https://twitter.com/michaelkeeling) |
   [http://neverletdown.net](http://neverletdown.net)
