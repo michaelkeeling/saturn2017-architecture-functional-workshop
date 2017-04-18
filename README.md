@@ -61,7 +61,7 @@ Workshop participants are required to be registered for SATURN 2017.
 
 Einar, Jørn and Harald (the Statoil gang) - [Tale of three gaps](position-papers/tale-of-three-gaps.md)
 
-Paul Newll - [What's the Big Deal?](position-papers/Functional-Programming-and-Software-Architecture- Whats-the-big-deal.md)
+Paul Newll - [What's the Big Deal?](position-papers/Functional-Programming-and-Software-Architecture-Whats-the-big-deal.md)
 
 George Fairbanks - [Functional Programming In Software Architecture](position-papers/functional-programming-invades-architecture-george-fairbanks.md)
 
