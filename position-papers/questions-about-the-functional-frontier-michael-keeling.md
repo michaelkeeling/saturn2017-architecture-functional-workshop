@@ -47,7 +47,7 @@ and more architecturally focused.
   * While not described on the website, the idea that the code we
     write is deterministically transformed into a configurable,
     stateless, deployable unit seems quite functional in nature.
-* Several of the message transfer 
+* Many of the message transfer patterns from [Enterprise Integration Patterns](http://www.enterpriseintegrationpatterns.com/patterns/messaging/)
 
 
 ### Patterns and such that do not seem functional in nature
@@ -73,15 +73,16 @@ style.
 
 In retrospect, and this may be obvious, but it also seems that _functional
 architecture_ can never apply to module patterns.  I could come up with
-several component and connector, allocation patterns that seemed functional
+several component &amp; connector and allocation patterns that seemed functional
 in nature.  Design time concerns --- specifically how code is organized ---
 does not seem to fit the bill.
 
 After further refelction, there may be interesting opportunities for describing
-module relations using mondads.  The one example that comes to mind is a
+module relations using monads.  The one example that comes to mind is a
 _maybe allowed to use_ relation.  How is this relation used?  One practical
-(albeit simple) example might be to describe dependancy injection at design time.
-Perhaps an even more general example is to take a functional view on refinement.
+(albeit simple) example might be to describe dependancy injection (or any dynamic
+relation) at design time.  Perhaps an even more general example is to take a functional
+view on model refinement.
 
 An interesting implication of this conclusion is to see how far we can talk
 functional allocation patterns.  Is _work assignment_ a transformation of idea
