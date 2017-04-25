@@ -88,7 +88,7 @@ I found a helpful comparison of several architectural patterns used in modern we
 
 ## Server-side
 
-“On the server” is a pretty broad characterization and not entirely accurate as not all systems are client-serve, but it’s a convenient bucket to group some ideas.  Above, we discussed so-called “serverless” pure functions that are high on the hype-cycle right now [5], but represent an interesting set of architectural patterns that are possible because running a big application in a browser is now possible and because cross-cutting services like persistence and security have become commoditized.
+“On the server” is a pretty broad characterization and not entirely accurate as not all systems are client-server, but it’s a convenient bucket to group some ideas.  Above, we discussed so-called “serverless” pure functions that are high on the hype-cycle right now [5], but represent an interesting set of architectural patterns that are possible because running a big application in a browser is now possible and because cross-cutting services like persistence and security have become commoditized.
 
 Reactive programming [6] is perhaps easiest to understand as the Observer pattern with two additional messages added as out-of-band signaling: onError and onCompletion.  There is a rich set of primitives to transform one Observable stream into another [7], rich enough that many simple tasks can be done just by composing the existing set.  
 
