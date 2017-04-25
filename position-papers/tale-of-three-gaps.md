@@ -29,7 +29,7 @@ What we really have here is a functional anti-pattern: The Smart Database (or Ce
 Logic primarily used to tackle state changes and manage data integrity rules, this is the logic that makes the database a placeholder for shared global state.
 
 ### Three gaps and the way forward
-We started this as a tale of three gaps, the gaps that occur due to the impedance mismatch un world view held by the different roles or archetypes: The Architect -> the Programmer -> the Data modeler -> Architect. Our belief is that these gaps must be eliminated, and that the best way to do so is by adopting functional thinking from the beginning to the end.
+We started this as a tale of three gaps, the gaps that occur due to the impedance mismatch and world view held by the different roles or archetypes: The Architect -> the Programmer -> the Data modeler -> Architect. Our belief is that these gaps must be eliminated, and that the best way to do so is by adopting functional thinking from the beginning to the end.
 
 Microservices with private persistent storage helps here. The same does NOSQL databases as these do not capture that many relationships – read data dependencies. We also believe that containers and container orchestration will be central to how we think about architecture going forwards, and that this also will help. Here we can look at multi-agent architectures and principles. These have been around for decades and are used with success in many deployed systems.
 
