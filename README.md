@@ -67,6 +67,7 @@ George Fairbanks - [Functional Programming In Software Architecture](position-pa
 
 Michael Keeling - [A Few Questions about the Functional Frontier](position-papers/questions-about-the-functional-frontier-michael-keeling.md)
 
+Sebastian von Conrad - [Functional Programming and Software Architecture](functional-programming-and-software-architecture-sebastian-von-conrad.md)
 
 # About SATURN
 
