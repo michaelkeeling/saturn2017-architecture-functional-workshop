@@ -1,0 +1,54 @@
+Functional Programming & Software Architecture
+
+Key Platforms
+
+Over the last two years AWS Lambda, Google Cloud Functions, IBM OpenWhisk, Microsoft Azure Functions have emerged as the leaders of the Functions as a Service space (FaaS) - an architecture pattern that is motivated and enabled, in part, by the functional programming paradigm.
+
+Overview: Functions as a Service
+
+Functional programming has enabled a new type of architecture pattern - the serverless onion.
+
+Serverless implies atomic functions (and related REST API) being deployed in stateless containers. The developer need not worry about provisioning the server, the operating system, available hardware, memory requirements etc. so much because these are managed by one of several (see key platforms) providers. The name ‘serverless’ is confusing, a more apt title is FaaS - Functions as a Service.
+Ref: https://martinfowler.com/articles/serverless.html
+
+Onion implies many layers, instead of the traditional ‘backend’, ‘middleware’, ‘client’ layers, this architecture promotes having multiple layers - with the core consisting of low level operations on the domain (or the domain language) and each outer layer building higher order functions (or abstractions) on top of the core domain, with the outermost being a trivial representation of the features the application exposes as UI or API. A layer depends upon a layer within and provides for a layer outside. This means that your application is no longer tightly coupled with the infrastructure because the database connection, the tests and the UI all live on the outermost layer.
+Ref: http://jeffreypalermo.com/blog/the-onion-architecture-part-1/.
+
+This new architecture pattern allows us to take the next (evolutionary) step after micro services. So, instead of dealing directly with infrastructure and deployment, these tasks are automated and are made a part of the programmer's API, thus the programmer's code carries both the featureset as well as the deployment instructions. Server provisioning, specifications, resources etc. are largely managed by the provider (AWS/Google/etc.)
+
+This architecture pattern is very useful in scenarios like modelling, parallel processing of data streams, ETL operations, activity streams and message queues etc.
+
+Highlights 
+
+Declarative + Functional programming 
+It is trivial to imagine the benefits that a declarative interface provides, one of the best examples is SQL where instead of writing a binary search method over a two dimensional array called Employee and return all the records that match one or more patterns (which are defined as separate methods), we simply say Select * from Employee where ‘name’ like ‘%ABC%’ - you write what you need done, instead of writing down the how it’ll be done - the complex lower level computer logic. Other popular examples of declarative programming include the make build specification language (where you specify what to build, instead of writing the lexer and parser - which are lower level implementations), and HTML (where you specify what to draw on a webpage, instead of writing the complex rendering and layouting logic).
+While a declarative interface can be achieved with object oriented techniques, by the time you are done with the first implementation, it’s hard to change and aspects of it are treated as final. Its primarily because introspection and reflection techniques are not baked into the programming paradigm.
+This is where the functional approach shines, it enables a declarative interface. 
+This declarative approach then becomes a key driver of architecture. The application speaks the language of the domain and it’s easy to detect and fix force-fits, gaps, misrepresentations and erroneous assumptions in the application each time the implementation is reviewed against the domain. A declarative interface makes it easy to adapt to changes in the domain model. 
+
+Easy to deploy containers
+
+The second aspect - though not directly an outcome of functional programming, but still radically important to the notion of the serverless onion - is the container. Linux containers are easy to instantiate, ephemeral (they last only so long and can be ‘shut down’ once their purpose is served) and provide a lightweight, standard means to instrument your application. Containers act as sandboxes that isolate only the required processes over the host kernel as opposed to a virtual instance of an entire operating system - allowing efficient use of OS and hardware resources. Applications like Docker, Kubernetes etc. only make the job easier. 
+Containers enable easy update of the various functions (and/or layers) that one may need deployed. The FaaS pattern make extensive use of containers.
+
+Other Potential Benefits
+
+Promises 
+Promises provide a proxy object as a placeholder till the real one can be made available. This allows for safer and more sophisticated asynchronous programming when combined with regular event driven approach. 
+
+Cost effective 
+When done right, the FaaS approach may prove more cost effective than blocking infrastructure or even AWS autoscale because the charge is levied each time the function is invoked, unlike a typical cloud configuration where some of the commissioned infrastructure may be dormant even in autoscale scenarios
+
+Limitations
+
+High Performance Computing
+This serverless architecture is not well suited for high performance computing yet, for example, AWS caps the number of lambdas you can execute at once. This implies that the tasks that benefit the most from massive parallelism - high performance computing, machine learning, analysis etc. may not work optimally over serverless architecture just yet.
+
+Optimization
+Since the architecture is based on third party vendors with proprietary platforms (Amazon, Google, IBM, Microsoft) with only IBM’s contribution being open source (OpenWhisk) the applications do not have the same depth of insights into the server’s inner workings. Thus it is harder to understand how the server is behaving in a certain situation and optimize the code accordingly.
+
+Latency
+Many of the infrequently used containers would be shut down when not in use in order to manage the resources. This implies that there would be some startup latency when these containers are ‘woken up’ again. This inherent latency is an inherent part of the serverless architecture as of now. 
+
+Summary
+Functional programming enables a declarative approach to interfaces which allows for the serverless onion agile architecture pattern. This means that developers can focus on the domain, its models, its interaction with the environment and adapt to the changes instead of focussing on low level IT provisioning and resource management tasks. It also means that the final application may show more cost savings when compared to traditional hosted solutions and even cloud based autoscale solutions.
