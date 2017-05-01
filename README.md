@@ -51,6 +51,7 @@ SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2
 * Eltjo Poort
 * George Fairbanks
 * Harold Wesenberg
+* Ipek Ozkaya
 * Jorn Orlmheim
 * Michael Keeling
 * Mike Clark
