@@ -40,22 +40,27 @@ collecton of new questions about the intersection of arhictecutre and
 functional thinking.  [Here are some questions and topics that can consider
 during the workshop, including the items listed on this page](questions.md).
 
-The workshop will take place on Monday, May 1, 2017 in [Denver, CO during the
+The workshop will took place on Monday, May 1, 2017 in [Denver, CO during the
 SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2017/).
-Workshop participants are required to be registered for SATURN 2017.
 
-**Important Dates**
 
-- Workshop RSVP - April 3, 2017
-- Position papers and seed patterns deadline - April 17, 2017
-- Workshop - May 1, 2017 @ 8:30 AM
+## Workshop Participants
 
-**More Information**
+* Arila Barnes
+* Einar Landre
+* Eltjo Poort
+* George Fairbanks
+* Harold Wesenberg
+* Jorn Orlmheim
+* Michael Keeling
+* Mike Clark
+* Paul Newell
+* Paul Rayner
+* Pradyumn Sharma
+* Sebastian von Conrad
 
-- [How to Join the Workshop](how-to-join.md)
-- [Motivating Questions for Position Papers and Seed Patterns](questions.md)
-- [Reference Material to help Prepare for the Workshop](references.md)
-- [Tentative Workshop Agenda](agenda.md)
+![](outcomes/images/group-shot.jpg)
+
 
 ## Position Papers and Seed Patterns
 
@@ -66,6 +71,8 @@ Paul Newll - [What's the Big Deal?](position-papers/Functional-Programming-and-S
 George Fairbanks - [Functional Programming In Software Architecture](position-papers/functional-programming-invades-architecture-george-fairbanks.md)
 
 Michael Keeling - [A Few Questions about the Functional Frontier](position-papers/questions-about-the-functional-frontier-michael-keeling.md)
+
+Pradyumn Sharma - 
 
 Sebastian von Conrad - [Functional Programming and Software Architecture](position-papers/functional-programming-and-software-architecture-sebastian-von-conrad.md)
 
