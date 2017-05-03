@@ -52,7 +52,7 @@ SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2
 * George Fairbanks
 * Harold Wesenberg
 * Ipek Ozkaya
-* Jorn Orlmheim
+* Jørn Ølmheim
 * Michael Keeling
 * Mike Clark
 * Paul Newell
@@ -73,7 +73,7 @@ George Fairbanks - [Functional Programming In Software Architecture](position-pa
 
 Michael Keeling - [A Few Questions about the Functional Frontier](position-papers/questions-about-the-functional-frontier-michael-keeling.md)
 
-Pradyumn Sharma - 
+Pradyumn Sharma -
 
 Sebastian von Conrad - [Functional Programming and Software Architecture](position-papers/functional-programming-and-software-architecture-sebastian-von-conrad.md)
 
