@@ -50,7 +50,7 @@ SATURN 2017 conference on software architecture](http://www.sei.cmu.edu/saturn/2
 * Einar Landre
 * Eltjo Poort
 * George Fairbanks
-* Harold Wesenberg
+* Harald Wesenberg
 * Ipek Ozkaya
 * Jørn Ølmheim
 * Michael Keeling
